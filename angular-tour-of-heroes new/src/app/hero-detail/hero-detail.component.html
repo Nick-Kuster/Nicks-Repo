@@ -1,0 +1,16 @@
+<!--When selectedHero is undefined, the ngIf removes the hero--> 
+<!--detail from the DOM. There are no selectedHero bindings to worry about.-->
+<!--When the user picks a hero, selectedHero has a value and ngIf-->
+<!--puts the hero detail into the DOM.-->
+<div *ngIf="hero"> 
+
+    <h2>{{ hero.name | uppercase}} Details</h2>
+    
+    <div>
+      <label>Name:
+        <input [(ngModel)]="hero.name" placeholder="name">
+      </label>
+    </div>
+    <button (click)="save()">save</button>
+</div>
+<button (click)="goBack()">go back</button>

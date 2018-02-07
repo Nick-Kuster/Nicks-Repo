@@ -1,0 +1,30 @@
+<!--Html files are used as 'Templates' in NG-->
+<h2>My Heroes</h2>
+<div>
+  <label>Hero name:
+    <input #heroName />
+  </label>
+  <!--(click) passes input value to add() and then clears the input -->
+  <button (click)= "add(heroName.value); heroName.value = ''">
+    add
+  </button>
+</div>
+<ul class="heroes">
+    <!--'let' is a new way of declaring a variable--> 
+    <!--..Need to look up more info at some point.-->
+    <!-- Conditional class 'selected' is added when the hero-->
+    <!-- is the same as the selectedHero-->
+    <!-- [class.selected]="hero === selectedHero" -->
+    <!-- (click)="onSelect(hero)" -->
+  <li *ngFor="let hero of heroes">
+      <a routerLink="/detail/{{hero.id}}">
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+      </a>
+      <button class="delete" title="delete hero"
+      (click)="delete(hero)">x</button>
+  </li>
+</ul>
+<!--It's a one way data binding from the selectedHero property of the--> 
+<!--HeroComponent to the hero property of the target element, which maps-->
+<!--to the hero property of the HeroDetailComponent.-->
+<!--<a routerLink="/dashboard">Dashboard</a>-->

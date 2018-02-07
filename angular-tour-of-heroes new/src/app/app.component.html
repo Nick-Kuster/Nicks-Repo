@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+</nav>
+<!-- You removed <app-heroes> because you will only display the Heroesable -->
+<!-- to the AppComponent because AppModule imports AppRoutingModule whiComponent when the user navigates to it.-->
+<!-- he <router-outlet> tells the router where to display routed views.-->
+<!-- The RouterOutlet is one of the router directives that became availch exported RouterModule. -->
+<router-outlet></router-outlet>
+<app-messages></app-messages>
