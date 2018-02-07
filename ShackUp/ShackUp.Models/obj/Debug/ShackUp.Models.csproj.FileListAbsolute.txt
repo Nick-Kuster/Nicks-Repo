@@ -1,0 +1,10 @@
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.dll
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.pdb
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.csprojResolveAssemblyReference.cache
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.dll
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.pdb
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.dll
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Models\bin\Debug\ShackUp.Models.pdb
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.csprojResolveAssemblyReference.cache
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.dll
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Models\obj\Debug\ShackUp.Models.pdb

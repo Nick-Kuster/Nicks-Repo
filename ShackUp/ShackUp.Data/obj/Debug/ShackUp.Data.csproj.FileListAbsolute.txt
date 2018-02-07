@@ -1,0 +1,14 @@
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Data.dll
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Data.pdb
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Models.dll
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Models.pdb
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Data\obj\Debug\ShackUp.Data.csprojResolveAssemblyReference.cache
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Data\obj\Debug\ShackUp.Data.dll
+D:\code\curriculum\dotnet\DDWA\04-DB-Access\CodeSamples\ShackUp\ShackUp.Data\obj\Debug\ShackUp.Data.pdb
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Data.dll
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Data.pdb
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Models.dll
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Data\bin\Debug\ShackUp.Models.pdb
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Data\obj\Debug\ShackUp.Data.csprojResolveAssemblyReference.cache
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Data\obj\Debug\ShackUp.Data.dll
+C:\Users\nskuster\Documents\Code\ShackUp\ShackUp.Data\obj\Debug\ShackUp.Data.pdb

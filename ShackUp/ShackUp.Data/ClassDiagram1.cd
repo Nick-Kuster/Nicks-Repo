@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShackUp.Data.ADO.AccountRepositoryADO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgDBAAAAAAAAAAAAAAAAAAAAAAIACQAABAAAA=</HashCode>
+      <FileName>ADO\AccountRepositoryADO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShackUp.Data.ADO.BathroomTypesRepositoryADO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ADO\BathroomTypesRepositoryADO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShackUp.Data.ADO.ListingsRepositoryADO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAgAIA=</HashCode>
+      <FileName>ADO\ListingsRepositoryADO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShackUp.Data.ADO.StatesRepositoryADO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ADO\StatesRepositoryADO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShackUp.Data.Factories.AccountRepositoryFactory" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\AccountRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShackUp.Data.Factories.BathroomTypesRepositoryFactory" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\BathroomTypesRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShackUp.Data.Factories.ListingRepositoryFactory" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ListingRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShackUp.Data.Factories.StatesRepositoryFactory" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\StatesRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShackUp.Data.Settings" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAACAAAIAABAAAAAAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ShackUp.Data.Interfaces.IAccountRepository">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgDBAAAAAAAAAAAAAAAAAAAAAAIACQAABAAAA=</HashCode>
+      <FileName>Interfaces\IAccountRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShackUp.Data.Interfaces.IBathroomTypesRepository" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBathroomTypesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShackUp.Data.Interfaces.IListingsRepository" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAgAIA=</HashCode>
+      <FileName>Interfaces\IListingsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShackUp.Data.Interfaces.IStatesRepository">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStatesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
