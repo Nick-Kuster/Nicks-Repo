@@ -1,0 +1,50 @@
+	--Following 3 functions are the same:
+	
+		1.) Func<int, bool> isPositive = delegate(int int32)
+			{
+				return int32 > 0;
+			};
+			
+		2.) Func<int, bool> isPositive = (int int32) =>
+		{
+			return int32 > 0;
+		};
+		
+		3.) Func<int, bool> isPositive = int32 => int32 > 0;
+
+	--When the type of parameter can be inferred (for example, from Func<int, bool>),
+	the type declaration of parameter (int) can be omitted;
+	
+	--When lambda expression has one parameter, the parentheses ( ) can be omitted;
+	
+	--When the body of the lambda expression has only one return
+	statement, the brackets { } and “return” keyword can be omitted.
+	
+	--When having more than one statements in the body,
+	the the brackets { } and “return” are required:
+
+		public static void StatementLambda()
+		{
+			Func<int, bool> isPositive = int32 =>
+				{
+					Console.WriteLine(int32);
+					return int32 > 0;
+				};
+		}
+		
+	--Anonymous function
+	a function not bound to an identifier. Following are the same: 
+
+		1.)public static void CallAnonymousMethod()
+		{
+			bool positive = new Func<int, bool>(delegate (int int32) { return int32 > 0; })(1);
+
+			new Action<bool>(delegate (bool value) { Trace.WriteLine(value); })(positive);
+		}
+
+		2.)public static void CallLambda()
+		{
+			bool positive = new Func<int, bool>(int32 => int32 > 0)(1);
+
+			new Action<bool>(value => Trace.WriteLine(value))(positive);
+		}
