@@ -42,7 +42,9 @@ namespace ConsoleApp1.View
         {
             Console.WriteLine("===============================================");
             Console.WriteLine("     *****It is now " + player.PlayerName + "'s turn****");
-            Console.WriteLine("Discard: " + game.DiscardPile.cards.Count + " Deck: " + game.Deck.Cards.Count);
+            Console.WriteLine("Discard: " + game.DiscardPile.cards.Count 
+                                          + " Deck: " + game.Deck.Cards.Count
+                                          + " Direction: " + game.Direction);
             Console.WriteLine("===============================================");
         }
         public void PrintTopDiscardCard(Card card, bool isWild = false, string wildColor = "" )
@@ -170,6 +172,12 @@ namespace ConsoleApp1.View
             Console.WriteLine(g.WinnerScore);
             var message = "Enter 1 to play again or 2 to Exit";
             return ChooseNumberBetween(message, 1, 2);
+        }
+
+        public void DeckOutMessage(Player p)
+        {
+            Console.WriteLine("Uh oh, it appears the Deck is out of cards");
+            Console.WriteLine(p.PlayerName + "'s hand will be shuffled into deck and removed from game.");
         }
         private int ChooseNumberBetween(string message, int min, int max)
         {

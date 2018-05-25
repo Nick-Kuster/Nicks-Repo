@@ -11,14 +11,10 @@ namespace ConsoleApp1
     {
         public Hand Hand;
         public string PlayerName;
-
+        public int Score;
         public Player(string playerName = "Opy")
         {
             PlayerName = playerName;
-        }
-        public void PlayCard(Card card)
-        {
-
         }
     }
 }

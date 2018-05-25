@@ -52,6 +52,17 @@ namespace ConsoleApp1.Logic
                     return;
             }
         }
+
+        public void EvaluateScore(Game game)
+        {
+            var winnerScore = 0;
+            foreach (Player p in game.Players)
+            {
+                winnerScore += GetPlayerScore(p);
+            }
+            game.Winner.Score += winnerScore;
+        }
+
         public void Reverse(Game game)
         {
             switch (game.Direction)
@@ -89,6 +100,51 @@ namespace ConsoleApp1.Logic
         {
             nextPlayer.Hand.AddCards(game.DrawCardsFromDeck(2));
             game.SkipNextPlayer = true;
+        }
+
+        private int GetPlayerScore(Player p)
+        {
+            var sum = 0;
+            foreach (Card c in p.Hand.Cards)
+            {
+                sum += GetCardScore(c);
+            }
+            return sum;
+        }
+
+        private int GetCardScore(Card c)
+        {
+            switch (c.Face)
+            {
+                case Face.ZERO:
+                    return 0;
+                case Face.ONE:
+                    return 1;
+                case Face.TWO:
+                    return 2;
+                case Face.THREE:
+                    return 3;
+                case Face.FOUR:
+                    return 4;
+                case Face.FIVE:
+                    return 5;
+                case Face.SIX:
+                    return 6;
+                case Face.SEVEN:
+                    return 7;
+                case Face.EIGHT:
+                    return 8;
+                case Face.NINE:
+                    return 9;
+                case Face.DRAW_TWO:
+                case Face.SKIP:
+                case Face.REVERSE:
+                    return 20;
+                case Face.WILD:
+                    return 50;
+                default:
+                    return 0;
+            }
         }
     }
 }

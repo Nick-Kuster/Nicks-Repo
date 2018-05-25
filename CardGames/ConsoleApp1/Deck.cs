@@ -77,11 +77,14 @@ namespace ConsoleApp1
         public List<Card> DrawCards(int numCards = 1)
         {
             var cards = new List<Card>();
-            for (int i = 0; i < numCards; i++)
+            if (Cards.Count > 0)
             {
-                var card = Cards.First();
-                Cards.Remove(card);
-                cards.Add(card);
+                for (int i = 0; i < numCards; i++)
+                {
+                    var card = Cards.First();
+                    Cards.Remove(card);
+                    cards.Add(card);
+                }
             }
             return cards;
         }

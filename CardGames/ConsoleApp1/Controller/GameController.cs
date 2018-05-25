@@ -21,9 +21,9 @@ namespace ConsoleApp1.Controller
         }
         public void StartGame()
         {
+            var game = SetupGame();
             while (_playAgain)
             {
-                var game = SetupGame();
                 BeginPlay(game, game.Players);
             }
         }
@@ -61,9 +61,15 @@ namespace ConsoleApp1.Controller
                 _io.PrintTopDiscardCard(game.DiscardPile.topCard);
                 _io.PrintPlayerHand(p.Hand);
                 TakeTurn(p, game);
+                if (p == null) continue; // If player decks out in TakeTurn phase, player is removed from game.
                 UnoCheck(p, game);
                 game.EndTurn();
+                if (p.Hand.Cards.Count == 0)
+                {
+                    game.GameOver = true;
+                }
             }
+            _logic.EvaluateScore(game);
             bool playAgain = _io.GameOver(game) == 1;
             _playAgain = playAgain;
         }
@@ -77,12 +83,21 @@ namespace ConsoleApp1.Controller
                 //They choose '0' which is -1 after subtracting 1 accounting for index
                 if (cardChoiceInt == 0)
                 {
-                    //Draw a card then set the turn so that it remains the players turn
-                    //until they draw a playable card.
-                    p.Hand.AddCards(game.DrawCardsFromDeck());
-                    game.StayOnPlayer = true;
-                    //Though Not a valid card, this resets the turn 
-                    validCard = true;
+                    if (game.Deck.Cards.Count > 0)
+                    {
+                        //Draw a card then set the turn so that it remains the players turn
+                        //until they draw a playable card.
+                        p.Hand.AddCards(game.DrawCardsFromDeck());
+                        game.StayOnPlayer = true;
+                        //Though Not a valid card, this resets the turn 
+                        validCard = true;
+                    }
+                    else
+                    {
+                        _io.DeckOutMessage(p);
+                        game.Deck.Cards.AddRange(p.Hand.Cards);
+                        game.Players.Remove(p);
+                    }
                 }
                 else
                 {
