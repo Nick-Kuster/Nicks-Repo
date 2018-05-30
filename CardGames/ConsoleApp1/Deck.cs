@@ -61,18 +61,20 @@ namespace ConsoleApp1
         }
         public void ShuffleDeck()
         {
-            Cards = GetShuffledDeck().ToList();
+            Cards = GetShuffledDeck();
         }
-        private IEnumerable<Card> GetShuffledDeck()
+        private List<Card> GetShuffledDeck()
         {
             var cardArray = Cards.ToArray();
             var rng = new Random();
             for (var i = 0; i < cardArray.Length; i++)
             {
                 int swapIndex = rng.Next(cardArray.Length - 1);
-                yield return cardArray[swapIndex];
+                Card tempCard = new Card(cardArray[i].Face, cardArray[i].Color);
                 cardArray[i] = cardArray[swapIndex];
+                cardArray[swapIndex] = tempCard;
             }
+            return cardArray.ToList();
         }
         public List<Card> DrawCards(int numCards = 1)
         {

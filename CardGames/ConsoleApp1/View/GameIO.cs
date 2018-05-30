@@ -47,15 +47,17 @@ namespace ConsoleApp1.View
                                           + " Direction: " + game.Direction);
             Console.WriteLine("===============================================");
         }
-        public void PrintTopDiscardCard(Card card, bool isWild = false, string wildColor = "" )
+        public void PrintTopDiscardCard(DiscardPile discardPile)
         {
             Console.WriteLine("Top Card: ");
-            if (isWild)
+            if (discardPile.topCard.Color == Color.WILD)
             {
-                Console.WriteLine("|" + wildColor + "_" + card.Face + "|");
-
+                Console.WriteLine("|" + discardPile.CurrentColor + "_" + discardPile.topCard.Face + "|");
             }
-            Console.WriteLine("|" + card.Color + "_" + card.Face + "|");
+            else
+            {
+                Console.WriteLine("|" + discardPile.topCard.Color + "_" + discardPile.topCard.Face + "|");
+            }
         }
         public void PrintPlayerHand(Hand hand)
         {
@@ -95,7 +97,7 @@ namespace ConsoleApp1.View
             Console.WriteLine();
             return 
                 ChooseNumberBetween(
-                    "Please Enter Number of Card you want to play./n" +
+                    "Please Enter Number of Card you want to play." +
                     "Enter 0 to draw a card.", 0, hand.Cards.Count);
         }
         public void InvalidCardMessage()
@@ -165,19 +167,39 @@ namespace ConsoleApp1.View
         {
             Console.WriteLine("OK, enjoy your UNO!!");
         }
-        public int GameOver(Game g)
+        public int RoundOver(Game g)
         {
             Console.WriteLine(g.Winner.PlayerName + " is the Winner!!!");
             Console.WriteLine("Adding up all remaining cards, " + g.Winner.PlayerName + "'s score is: ");
             Console.WriteLine(g.WinnerScore);
-            var message = "Enter 1 to play again or 2 to Exit";
+            var message = "Enter 1 to play another round or 2 quit playing. Winning Score is 500";
             return ChooseNumberBetween(message, 1, 2);
         }
-
+        public void PrintPlayerScores(Game game)
+        {
+            var players = game.Players.OrderByDescending(p => p.Score);
+            Console.WriteLine("Welcome to Round " + game.Round);
+            Console.WriteLine("Current scores are: ");
+            foreach (Player p in players)
+            {
+                Console.WriteLine(p.PlayerName + ": " + p.Score);
+            }
+            Console.WriteLine("=====================================");
+            Console.ReadLine();
+        }
         public void DeckOutMessage(Player p)
         {
             Console.WriteLine("Uh oh, it appears the Deck is out of cards");
             Console.WriteLine(p.PlayerName + "'s hand will be shuffled into deck and removed from game.");
+        }
+
+        public void PrintWinner(Game g)
+        {
+            var plural = g.Round > 1 ? "'s" : "";
+            Console.WriteLine($"After {g.Round - 1} Round{plural}");
+            Console.WriteLine("The Winner Is: ");
+            Console.WriteLine($"{g.Winner.PlayerName} With {g.Winner.Score} Points!");
+            Console.ReadLine();
         }
         private int ChooseNumberBetween(string message, int min, int max)
         {

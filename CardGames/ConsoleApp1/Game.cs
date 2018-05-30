@@ -10,11 +10,13 @@ namespace ConsoleApp1
     {
         public int Turn { get; set; }
         public TurnDirection Direction { get; set; }
-        public bool GameOver { get; set; }
+        public int Round { get; set; }
+        public bool RoundOver { get; set; }
         public bool ReturnToDealer { get; set; }
         public bool StayOnPlayer { get; set; }
         public bool SkipNextPlayer { get; set; }
         public List<Player> Players { get; set; }
+        public Player CurrentLeader => Players.OrderByDescending(p => p.Score).First();
         public Player Winner { get; set; }
         public int WinnerScore { get; set; }
         public Deck Deck { get; set; }
@@ -27,6 +29,7 @@ namespace ConsoleApp1
             DealCards(deck);
             Direction = TurnDirection.Clockwise;
             Turn = 0;
+            Round = 1;
             DiscardPile = discardPile;
         }
         private void DealCards(Deck deck)
@@ -36,7 +39,6 @@ namespace ConsoleApp1
                 p.Hand = deck.DealHand();
             }
         }
-
         public List<Card> DrawCardsFromDeck(int numCards = 1)
         {
             //If there aren't enough cards in deck to be shuffled,
@@ -48,7 +50,6 @@ namespace ConsoleApp1
             }
             return Deck.DrawCards(numCards);
         }
-
         public void ResetDeck()
         {
             //persist top card of discard pile
@@ -89,6 +90,11 @@ namespace ConsoleApp1
         }
         public void EndTurn()
         {
+            if (Players[Turn].Hand.Cards.Count == 0)
+            {
+                RoundOver = true;
+                Winner = Players[Turn];
+            }
             if (ReturnToDealer)
             {
                 Turn = 0;
@@ -108,20 +114,23 @@ namespace ConsoleApp1
                 StayOnPlayer = false;
                 return;
             }
-            if (Players[Turn].Hand.Cards.Count == 0)
-            {
-                GameOver = true;
-                Winner = Players[Turn];
-            }
+            
             //If none of the above conditions are met, we can just rotate
             //one turn in whatever direction we are going.
             RotateTurn();
         }
-        public void EndGame()
+        public void ResetGame()
         {
-
+            Deck = new Deck();
+            Deck.ShuffleDeck();
+            DealCards(Deck);
+            Direction = TurnDirection.Clockwise;
+            Turn = 0;
+            DiscardPile = new DiscardPile();
+            WinnerScore = 0;
+            RoundOver = false;
+            Round++;
         }
-
         private void RotateTurn()
         {
             switch (Direction)

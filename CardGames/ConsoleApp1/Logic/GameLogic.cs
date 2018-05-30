@@ -26,7 +26,6 @@ namespace ConsoleApp1.Logic
         {
             game.DiscardPile.AddCard(game.Deck.DrawCards()[0]);
         }
-
         public void EvaluateFirstCard(Game game, Card card)
         {
             //This applies the first card to the first player
@@ -52,7 +51,6 @@ namespace ConsoleApp1.Logic
                     return;
             }
         }
-
         public void EvaluateScore(Game game)
         {
             var winnerScore = 0;
@@ -61,8 +59,12 @@ namespace ConsoleApp1.Logic
                 winnerScore += GetPlayerScore(p);
             }
             game.Winner.Score += winnerScore;
+            game.WinnerScore = winnerScore;
         }
-
+        public bool CheckForWinner(Game game)
+        {
+            return game.CurrentLeader.Score >= 500;
+        }
         public void Reverse(Game game)
         {
             switch (game.Direction)
@@ -80,16 +82,6 @@ namespace ConsoleApp1.Logic
         public void Skip(Game game)
         {
             game.SkipNextPlayer = true;
-            ////e.g. if we are on there are 3 players and Player 3 plays a skip,
-            ////the turn needs to be set to 0 so that changing turns moves the turn
-            ////to player 2 instead of making the turn "4", which the next turn method
-            ////will revert back to player 1.
-            //if (game.Turn + 1 > game.Players.Count)
-            //{
-            //    game.Turn = 0;
-            //    return;
-            //}
-            //game.Turn++;
         }
         public void DrawFour(Game game, Player nextPlayer)
         {
@@ -101,7 +93,6 @@ namespace ConsoleApp1.Logic
             nextPlayer.Hand.AddCards(game.DrawCardsFromDeck(2));
             game.SkipNextPlayer = true;
         }
-
         private int GetPlayerScore(Player p)
         {
             var sum = 0;
@@ -111,7 +102,6 @@ namespace ConsoleApp1.Logic
             }
             return sum;
         }
-
         private int GetCardScore(Card c)
         {
             switch (c.Face)

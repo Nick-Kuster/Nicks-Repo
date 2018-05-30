@@ -24,8 +24,13 @@ namespace ConsoleApp1.Controller
             var game = SetupGame();
             while (_playAgain)
             {
+                if (game.Round > 1)
+                {
+                    _io.PrintPlayerScores(game);
+                }
                 BeginPlay(game, game.Players);
             }
+            _io.PrintWinner(game);
         }
         private Game SetupGame()
         {
@@ -42,6 +47,12 @@ namespace ConsoleApp1.Controller
         }
         private void BeginPlay(Game game, List<Player> players)
         {
+            StartRound(game, players);
+            PlayRound(game, players);
+            EndRound(game);
+        }
+        private void StartRound(Game game, List<Player> players)
+        {
             _logic.DrawFirstCard(game);
             _logic.EvaluateFirstCard(game, game.DiscardPile.topCard);
             //If First Card drawn is Wildcard, the first player
@@ -49,29 +60,39 @@ namespace ConsoleApp1.Controller
             if (game.DiscardPile.topCard.Color == Color.WILD)
             {
                 var p = players[game.Turn];
-                _io.PrintTopDiscardCard(game.DiscardPile.topCard);
+                _io.PrintTopDiscardCard(game.DiscardPile);
                 _io.PrintPlayerHand(p.Hand);
                 Color color = (Color)_io.ChooseWildCardColor();
                 game.DiscardPile.CurrentColor = color;
             }
-            while (!game.GameOver)
+        }
+        private void PlayRound(Game game, List<Player> players)
+        {
+            while (!game.RoundOver)
             {
                 var p = players[game.Turn];
                 _io.PrintPlayerTurn(players[game.Turn], game);
-                _io.PrintTopDiscardCard(game.DiscardPile.topCard);
+                _io.PrintTopDiscardCard(game.DiscardPile);
                 _io.PrintPlayerHand(p.Hand);
                 TakeTurn(p, game);
                 if (p == null) continue; // If player decks out in TakeTurn phase, player is removed from game.
                 UnoCheck(p, game);
                 game.EndTurn();
-                if (p.Hand.Cards.Count == 0)
-                {
-                    game.GameOver = true;
-                }
             }
+        }
+        private void EndRound(Game game)
+        {
             _logic.EvaluateScore(game);
-            bool playAgain = _io.GameOver(game) == 1;
-            _playAgain = playAgain;
+            if (_logic.CheckForWinner(game))
+            {
+                _playAgain = false;
+            }
+            else
+            {
+                bool playAgain = _io.RoundOver(game) == 1;
+                game.ResetGame();
+                _playAgain = playAgain;
+            }
         }
         private void TakeTurn(Player p, Game game)
         {
@@ -147,6 +168,9 @@ namespace ConsoleApp1.Controller
                 }
             }
         }
+
+
+
     }
 }
 
