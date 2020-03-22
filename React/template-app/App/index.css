@@ -1,0 +1,9 @@
+body{
+    background: yellow;
+}
+
+#app{
+    background: blue;
+    width: 200px;
+    height: 20px;
+}
