@@ -1,0 +1,92 @@
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Sudoku Api.exe
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.csprojAssemblyReference.cache
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\staticwebassets\Sudoku Api.StaticWebAssets.Manifest.cache
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\staticwebassets\Sudoku Api.StaticWebAssets.xml
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.AssemblyInfoInputs.cache
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.AssemblyInfo.cs
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.RazorTargetAssemblyInfo.cache
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Sudoku Api.deps.json
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Sudoku Api.runtimeconfig.json
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Sudoku Api.runtimeconfig.dev.json
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Sudoku Api.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Sudoku Api.pdb
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.csproj.CopyComplete
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.dll
+C:\Users\i24830.DEV\Desktop\Documentation\react\Api\Sudoku Api\Sudoku Api\obj\Debug\netcoreapp3.1\Sudoku Api.pdb
