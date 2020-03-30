@@ -1,0 +1,8 @@
+body{
+    background-image: url('http://localhost:8080/app/images/ShadowTransparentBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: #777;
+}
