@@ -1,0 +1,12 @@
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\bin\Debug\netcoreapp3.1\ClaimsRUs.Entity.deps.json
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\bin\Debug\netcoreapp3.1\ClaimsRUs.Entity.dll
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\obj\Debug\netcoreapp3.1\ClaimsRUs.Entity.csprojAssemblyReference.cache
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\obj\Debug\netcoreapp3.1\ClaimsRUs.Entity.AssemblyInfoInputs.cache
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\obj\Debug\netcoreapp3.1\ClaimsRUs.Entity.AssemblyInfo.cs
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\bin\Debug\netcoreapp3.1\ClaimsRUs.Entity.runtimeconfig.json
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\bin\Debug\netcoreapp3.1\ClaimsRUs.Entity.runtimeconfig.dev.json
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\bin\Debug\netcoreapp3.1\ClaimsRUs.Entity.pdb
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\obj\Debug\netcoreapp3.1\ClaimsRUs.Entity.dll
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\obj\Debug\netcoreapp3.1\ClaimsRUs.Entity.pdb
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\obj\Debug\netcoreapp3.1\ClaimsRUs.Entity.genruntimeconfig.cache
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs.Entity\obj\Debug\netcoreapp3.1\ClaimsRUs.Entity.csproj.CoreCompileInputs.cache

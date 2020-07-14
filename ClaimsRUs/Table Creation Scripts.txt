@@ -1,0 +1,69 @@
+--CREATE DATABASE cru;
+
+
+CREATE TABLE Role (
+	RoleId	 uniqueidentifier PRIMARY KEY,
+	RoleName nvarchar(30)
+);
+
+CREATE TABLE ApplicationUser (
+	UserId 	 uniqueidentifier PRIMARY KEY,
+	UserName nvarchar(30),
+	Password nvarchar(50),
+	CreationDate datetime2
+);
+
+CREATE TABLE Role_ApplicationUser ( 
+	RoleId uniqueidentifier FOREIGN KEY REFERENCES Role(RoleId),
+	UserId uniqueidentifier FOREIGN KEY REFERENCES ApplicationUser(UserId),
+	CONSTRAINT PK_RoleApplicationUser PRIMARY KEY (RoleId, UserId)
+);
+
+CREATE TABLE UserAuditTrail ( 
+	UserAuditTrailId uniqueidentifier PRIMARY KEY,
+	UserId			 uniqueidentifier FOREIGN KEY REFERENCES ApplicationUser(UserId),
+	AuditDate		 datetime2,
+	Description		 nvarchar(max)
+);
+
+CREATE TABLE Contact (
+	ContactId uniqueidentifier PRIMARY KEY,
+	FName	nvarchar(255),
+	LName	nvarchar(255),
+	MPhone	nvarchar(20),
+	HPhone	nvarchar(20),
+	OPhone	nvarchar(20),
+	Street	nvarchar(255),
+	City	nvarchar(255),
+	State	nvarchar(2),
+	Zip		nvarchar(20)
+);
+
+CREATE TABLE Claim ( 
+	ClaimId		uniqueidentifier PRIMARY KEY,
+	DateCreated datetime2,
+	DateOfClaim datetime2,
+	Description nvarchar(max)
+
+);
+
+CREATE TABLE Vehicle( 
+	VehicleId	uniqueidentifier PRIMARY KEY,
+	Make		nvarchar(255),
+	Model		nvarchar(255),
+	Year		nvarchar(4),
+	Color		nvarchar(20)
+
+);
+
+CREATE TABLE Contact_Vehicle (
+	ContactVehicleId	uniqueidentifier PRIMARY KEY,
+	ContactId			uniqueidentifier FOREIGN KEY REFERENCES Contact(ContactId),
+	VehicleId			uniqueidentifier FOREIGN KEY REFERENCES Vehicle(VehicleId)
+);
+
+CREATE TABLE Claim_ContactVehicle ( 
+	ClaimId				uniqueidentifier FOREIGN KEY REFERENCES Claim(ClaimId),
+	ContactVehicleId	uniqueidentifier FOREIGN KEY REFERENCES Contact_Vehicle(ContactVehicleId),
+	CONSTRAINT PK_Claim_ContactVehicle PRIMARY KEY (ClaimId, ContactVehicleId)
+);

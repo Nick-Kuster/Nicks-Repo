@@ -99,7 +99,7 @@ function PlayerPreview ({username, onReset, label}){
                             <img 
                             className='avatar-small'
                             src={`https://github.com/${username}.png?size=200`}
-                            alt={`Avatar for ${username}`} 
+                            alt={`Avatar for {username}`} 
                             />
                             <a
                             href={`https://github.com/${username}`}
