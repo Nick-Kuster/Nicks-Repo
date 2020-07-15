@@ -7,6 +7,7 @@ using ClaimsRUs.Data.Abstractions.Readers;
 using ClaimsRUs.Data.Readers;
 using ClaimsRUs.Data.ViewModels;
 using ClaimsRUs.Entity;
+using ClaimsRUs.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -42,8 +43,10 @@ namespace ClaimsRUs
         {
             services.AddTransient<IVehicle, VehicleViewModel>();
             services.AddTransient<IClaim, ClaimViewModel>();
+            services.AddTransient<IContact, ContactViewModel>();
             services.AddTransient<IVehiclesReader, VehiclesReader>();
             services.AddTransient<IClaimsReader, ClaimsReader>();
+            services.AddTransient<IContactsReader, ContactsReader>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

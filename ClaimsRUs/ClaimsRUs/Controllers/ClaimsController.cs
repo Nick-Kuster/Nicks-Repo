@@ -1,13 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ClaimsRUs.Entity;
 using ClaimsRUs.Entity.Models;
 using ClaimsRUs.Data.Abstractions.Readers;
+using ClaimsRUs.Models;
+using ClaimsRUs.Data.ViewModels;
+using ClaimsRUs.Data.Abstractions.Models;
+using System.Collections.Generic;
 
 namespace ClaimsRUs.Controllers
 {
@@ -15,11 +17,15 @@ namespace ClaimsRUs.Controllers
     {
         private readonly Context _context;
         private readonly IClaimsReader _claimsReader;
+        private readonly IContactsReader _contactsReader;
+        private readonly IVehiclesReader _vehiclesReader;
 
-        public ClaimsController(Context context, IClaimsReader claimsReader)
+        public ClaimsController(Context context, IClaimsReader claimsReader, IContactsReader contactsReader, IVehiclesReader vehiclesReader)
         {
             _context = context;
-            this._claimsReader = claimsReader;
+            _claimsReader = claimsReader;
+            _contactsReader = contactsReader;
+            _vehiclesReader = vehiclesReader;
         }
 
         // GET: Claims
@@ -50,7 +56,15 @@ namespace ClaimsRUs.Controllers
         // GET: Claims/Create
         public IActionResult Create()
         {
-            return View();
+            var contactList = _contactsReader.ReadAll().ToList();
+            var vehicleList = _vehiclesReader.ReadAll().ToList();
+            CreateClaimViewModel vm = new CreateClaimViewModel()
+            {
+                Claim = new ClaimViewModel(),
+                ContactList = contactList,
+                VehicleList = vehicleList
+            };
+            return View(vm);
         }
 
         // POST: Claims/Create
@@ -58,16 +72,17 @@ namespace ClaimsRUs.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ClaimId,DateCreated,DateOfClaim,Description")] Claim claim)
+        public async Task<IActionResult> Create(ClaimViewModel claim, Guid selectedContactId, Guid selectedVehicleId)
         {
-            if (ModelState.IsValid)
-            {
-                claim.ClaimId = Guid.NewGuid();
-                _context.Add(claim);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(claim);
+        
+            //if (ModelState.IsValid)
+            //{
+            //    claim.ClaimId = Guid.NewGuid();
+            //    _context.Add(claim);
+            //    await _context.SaveChangesAsync();
+            //    return RedirectToAction(nameof(Index));
+            //}
+            return View();
         }
 
         // GET: Claims/Edit/5

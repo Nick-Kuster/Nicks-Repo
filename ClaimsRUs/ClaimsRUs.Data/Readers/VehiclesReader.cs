@@ -48,7 +48,8 @@ namespace ClaimsRUs.Data.Readers
                 VehicleId = fromDb.VehicleId,
                 Color = fromDb.Color,
                 Make = fromDb.Make,
-                Model = fromDb.Model
+                Model = fromDb.Model,
+                Year = fromDb.Year
             };
         }
     }

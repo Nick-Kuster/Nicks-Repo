@@ -4,6 +4,7 @@ namespace ClaimsRUs.Models
 {
     public class ContactViewModel : IContact
     {
+        public string DisplayName => $"{LName}, {FName}";
         public Guid ContactId { get; set; }
         public string FName { get; set; }
         public string LName { get; set; }

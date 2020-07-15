@@ -1,4 +1,4 @@
-﻿@model ClaimsRUs.Entity.Models.Claim
+﻿@model CreateClaimViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -13,20 +13,26 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="DateCreated" class="control-label"></label>
-                <input asp-for="DateCreated" class="form-control" />
-                <span asp-validation-for="DateCreated" class="text-danger"></span>
+                <label asp-for="@Model.Claim.DateCreated" class="control-label"></label>
+                <input asp-for="@Model.Claim.DateCreated" class="form-control" />
+                <span asp-validation-for="@Model.Claim.DateCreated" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DateOfClaim" class="control-label"></label>
-                <input asp-for="DateOfClaim" class="form-control" />
-                <span asp-validation-for="DateOfClaim" class="text-danger"></span>
+                <label asp-for="Claim.DateOfClaim" class="control-label"></label>
+                <input asp-for="Claim.DateOfClaim" class="form-control" />
+                <span asp-validation-for="Claim.DateOfClaim" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
+                <label asp-for="Claim.Description" class="control-label"></label>
+                <input asp-for="Claim.Description" class="form-control" />
+                <span asp-validation-for="Claim.Description" class="text-danger"></span>
             </div>
+            @Html.LabelFor(m => m.SelectedContactId, "Select a Contact")
+            @Html.DropDownListFor(m => m.SelectedContactId, new SelectList(Model.ContactList, "ContactId", "DisplayName"), new { @class = "form-control" })
+
+            @Html.LabelFor(m => m.SelectedContactId, "Select a Vehicle")
+            @Html.DropDownListFor(m => m.SelectedVehicleId, new SelectList(Model.VehicleList, "VehicleId", "DisplayName"), new { @class = "form-control" })
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
