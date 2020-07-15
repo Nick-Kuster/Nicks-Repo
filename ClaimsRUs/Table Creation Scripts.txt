@@ -1,32 +1,5 @@
 --CREATE DATABASE cru;
 
-
-CREATE TABLE Role (
-	RoleId	 uniqueidentifier PRIMARY KEY,
-	RoleName nvarchar(30)
-);
-
-CREATE TABLE ApplicationUser (
-	UserId 	 uniqueidentifier PRIMARY KEY,
-	UserName nvarchar(30),
-	Password nvarchar(50),
-	CreationDate datetime2
-);
-
-
-CREATE TABLE Role_ApplicationUser ( 
-	RoleId uniqueidentifier FOREIGN KEY REFERENCES Role(RoleId),
-	UserId uniqueidentifier FOREIGN KEY REFERENCES ApplicationUser(UserId),
-	CONSTRAINT PK_RoleApplicationUser PRIMARY KEY (RoleId, UserId)
-);
-
-CREATE TABLE UserAuditTrail ( 
-	UserAuditTrailId uniqueidentifier PRIMARY KEY,
-	UserId			 uniqueidentifier FOREIGN KEY REFERENCES ApplicationUser(UserId),
-	AuditDate		 datetime2,
-	Description		 nvarchar(max)
-);
-
 CREATE TABLE Contact (
 	ContactId uniqueidentifier PRIMARY KEY,
 	FName	nvarchar(255),
