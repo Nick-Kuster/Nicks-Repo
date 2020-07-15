@@ -3,6 +3,7 @@ using ClaimsRUs.Data.Abstractions.Readers;
 using ClaimsRUs.Data.ViewModels;
 using ClaimsRUs.Entity;
 using ClaimsRUs.Entity.Models;
+using ClaimsRUs.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace ClaimsRUs.Data.Readers
         }
 
         public IVehicle Read(Guid id)
-        {
+        {            
             Vehicle fromDb = _dbContext.vehicle.FirstOrDefault(x => x.VehicleId == id) ?? throw new Exception("Vehicle not found");
 
             IVehicle viewModel = ConvertToViewModel(fromDb);
@@ -43,13 +44,15 @@ namespace ClaimsRUs.Data.Readers
 
         private IVehicle ConvertToViewModel(Vehicle fromDb)
         {
+            Contact contact = _dbContext.contact.FirstOrDefault(x => x.ContactId == fromDb.ContactId);
             return new VehicleViewModel()
             {
                 VehicleId = fromDb.VehicleId,
                 Color = fromDb.Color,
                 Make = fromDb.Make,
                 Model = fromDb.Model,
-                Year = fromDb.Year
+                Year = fromDb.Year,
+                Contact = new ContactViewModel() { FName = contact.FName, LName = contact.LName, City = contact.City } 
             };
         }
     }

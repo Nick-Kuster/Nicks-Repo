@@ -1,10 +1,10 @@
-﻿@model IEnumerable<ClaimsRUs.Entity.Models.Vehicle>
+﻿@model IEnumerable<ClaimsRUs.Data.Abstractions.Models.IVehicle>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Vehicles";
 }
 
-<h1>Index</h1>
+<h1>Vehicles</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -13,7 +13,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Contact)
+                @Html.DisplayNameFor(model => model.Contact.FName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Make)
@@ -34,7 +34,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Contact.ContactId)
+                @Html.DisplayFor(modelItem => item.Contact.FName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Make)

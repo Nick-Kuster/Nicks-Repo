@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ClaimsRUs.Entity;
 using ClaimsRUs.Entity.Models;
+using ClaimsRUs.Data.Abstractions.Readers;
 
 namespace ClaimsRUs.Controllers
 {
@@ -14,15 +15,19 @@ namespace ClaimsRUs.Controllers
     {
         private readonly Context _context;
 
-        public ContactsController(Context context)
+        private IContactsReader _contactsReader { get; }
+
+        public ContactsController(Context context, IContactsReader contactsReader)
         {
             _context = context;
+            _contactsReader = contactsReader;
         }
 
         // GET: Contacts
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.contact.ToListAsync());
+            var contacts = _contactsReader.ReadAll();
+            return View(contacts);
         }
 
         // GET: Contacts/Details/5

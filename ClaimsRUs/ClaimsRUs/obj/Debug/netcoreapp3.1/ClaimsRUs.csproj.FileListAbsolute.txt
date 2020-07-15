@@ -183,3 +183,8 @@ C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Vie
 C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Contacts\Details.cshtml.g.cs
 C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Contacts\Edit.cshtml.g.cs
 C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Contacts\Index.cshtml.g.cs
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Vehicles\Create.cshtml.g.cs
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Vehicles\Delete.cshtml.g.cs
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Vehicles\Details.cshtml.g.cs
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Vehicles\Edit.cshtml.g.cs
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Vehicles\Index.cshtml.g.cs

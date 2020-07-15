@@ -7,23 +7,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ClaimsRUs.Entity;
 using ClaimsRUs.Entity.Models;
+using ClaimsRUs.Data.Abstractions.Readers;
 
 namespace ClaimsRUs.Controllers
 {
     public class VehiclesController : Controller
     {
         private readonly Context _context;
+        private readonly IVehiclesReader _vehiclesReader;
 
-        public VehiclesController(Context context)
+        public VehiclesController(Context context, IVehiclesReader vehiclesReader)
         {
             _context = context;
+            _vehiclesReader = vehiclesReader;
         }
 
         // GET: Vehicles
         public async Task<IActionResult> Index()
         {
-            var context = _context.vehicle.Include(v => v.Contact);
-            return View(await context.ToListAsync());
+            var vehicles = _vehiclesReader.ReadAll();
+            return View(vehicles);
         }
 
         // GET: Vehicles/Details/5
