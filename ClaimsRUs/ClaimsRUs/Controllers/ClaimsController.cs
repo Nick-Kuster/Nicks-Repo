@@ -10,6 +10,7 @@ using ClaimsRUs.Models;
 using ClaimsRUs.Data.ViewModels;
 using ClaimsRUs.Data.Abstractions.Models;
 using System.Collections.Generic;
+using ClaimsRUs.Data.Abstractions.Writers;
 
 namespace ClaimsRUs.Controllers
 {
@@ -19,13 +20,15 @@ namespace ClaimsRUs.Controllers
         private readonly IClaimsReader _claimsReader;
         private readonly IContactsReader _contactsReader;
         private readonly IVehiclesReader _vehiclesReader;
+        private readonly IClaimsWriter _claimsWriter;
 
-        public ClaimsController(Context context, IClaimsReader claimsReader, IContactsReader contactsReader, IVehiclesReader vehiclesReader)
+        public ClaimsController(Context context, IClaimsReader claimsReader, IContactsReader contactsReader, IVehiclesReader vehiclesReader, IClaimsWriter claimsWriter)
         {
             _context = context;
             _claimsReader = claimsReader;
             _contactsReader = contactsReader;
             _vehiclesReader = vehiclesReader;
+            _claimsWriter = claimsWriter;
         }
 
         // GET: Claims
@@ -74,14 +77,14 @@ namespace ClaimsRUs.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ClaimViewModel claim, Guid selectedContactId, Guid selectedVehicleId)
         {
-        
-            //if (ModelState.IsValid)
-            //{
-            //    claim.ClaimId = Guid.NewGuid();
-            //    _context.Add(claim);
-            //    await _context.SaveChangesAsync();
-            //    return RedirectToAction(nameof(Index));
-            //}
+
+            if (ModelState.IsValid)
+            {
+                var contactVehicleList = new List<ContactVehicleViewModel>() { new ContactVehicleViewModel() { ContactId = selectedContactId, VehicleId = selectedVehicleId } };
+                claim.ContactVehicles = contactVehicleList;
+                _claimsWriter.Write(claim);
+                return RedirectToAction(nameof(Index));
+            }
             return View();
         }
 
