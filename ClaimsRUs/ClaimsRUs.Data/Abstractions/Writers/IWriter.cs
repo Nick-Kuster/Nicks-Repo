@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using ClaimsRUs.Data.Abstractions.Models;
+using System.Collections.Generic;
 
 namespace ClaimsRUs.Data.Abstractions.Writers
 {

@@ -14,7 +14,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClaimsRUs.Data\ClaimsRUs.Data.csproj" />
     <ProjectReference Include="..\ClaimsRUs.Entity\ClaimsRUs.Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

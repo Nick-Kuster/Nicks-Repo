@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClaimsRUs.Data.Abstractions.Models;
+using ClaimsRUs.Data.Abstractions.Readers;
+using ClaimsRUs.Data.Readers;
+using ClaimsRUs.Data.ViewModels;
 using ClaimsRUs.Entity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +34,14 @@ namespace ClaimsRUs
 
 
             services.AddDbContext<Context>(options => options.UseSqlServer(connectionString));
+
+            SetUpDI(services);
+        }
+
+        private void SetUpDI(IServiceCollection services)
+        {
+            services.AddTransient<IVehicle, VehicleViewModel>();
+            services.AddTransient<IVehiclesReader, VehiclesReader>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

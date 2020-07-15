@@ -150,3 +150,5 @@ C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\bin\Debug\netcoreapp3.1\zh-Hant\M
 C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\ClaimsRUs.csproj.CoreCompileInputs.cache
 C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\ClaimsRUs.MvcApplicationPartsAssemblyInfo.cache
 C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Vehicles.cshtml.g.cs
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\bin\Debug\netcoreapp3.1\ClaimsRUs.Data.dll
+C:\dev\Nick Git\Nicks-Repo\ClaimsRUs\ClaimsRUs\bin\Debug\netcoreapp3.1\ClaimsRUs.Data.pdb

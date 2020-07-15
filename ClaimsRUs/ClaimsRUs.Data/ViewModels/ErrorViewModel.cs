@@ -1,6 +1,4 @@
-using System;
-
-namespace ClaimsRUs.Models
+namespace ClaimsRUs.Data.ViewModels
 {
     public class ErrorViewModel
     {

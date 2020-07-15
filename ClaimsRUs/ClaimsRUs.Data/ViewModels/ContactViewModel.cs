@@ -2,7 +2,7 @@
 using System;
 namespace ClaimsRUs.Models
 {
-    public class Contact : IContact
+    public class ContactViewModel : IContact
     {
         public Guid ContactId { get; set; }
         public string FName { get; set; }

@@ -31,7 +31,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\dev\\Nick Git\\Nicks-Repo\\ClaimsRUs\\ClaimsRUs.Entity\\ClaimsRUs.Entity.csproj": {
+                "projectPath": "C:\\dev\\Nick Git\\Nicks-Repo\\ClaimsRUs\\ClaimsRUs.Entity\\ClaimsRUs.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

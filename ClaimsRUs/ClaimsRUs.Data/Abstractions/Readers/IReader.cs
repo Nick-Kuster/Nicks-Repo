@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClaimsRUs.Data.Abstractions.Models;
+using System;
 using System.Collections.Generic;
 
 namespace ClaimsRUs.Data.Abstractions.Readers

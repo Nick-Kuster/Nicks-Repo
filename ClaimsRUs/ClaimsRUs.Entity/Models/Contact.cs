@@ -18,5 +18,7 @@ namespace ClaimsRUs.Entity.Models
         public string City { get; set; }
         public string State { get; set; }
         public string Zip { get; set; }
+        public ICollection<Vehicle> Vehicles { get; set; }
+        public ICollection<ClaimContactVehicle> ClaimContactVehicles { get; set; }
     }
 }

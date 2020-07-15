@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Readers\" />
+    <ProjectReference Include="..\ClaimsRUs.Entity\ClaimsRUs.Entity.csproj" />
   </ItemGroup>
 
 </Project>

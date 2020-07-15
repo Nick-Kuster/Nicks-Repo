@@ -12,5 +12,6 @@ namespace ClaimsRUs.Entity.Models
         public DateTime DateCreated { get; set; }
         public DateTime DateOfClaim { get; set; }
         public string Description { get; set; }
+        public ICollection<ClaimContactVehicle> ClaimContactVehicles { get; set; }
     }
 }

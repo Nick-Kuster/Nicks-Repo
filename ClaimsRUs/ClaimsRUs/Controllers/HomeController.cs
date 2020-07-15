@@ -1,25 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ClaimsRUs.Models;
-using ClaimsRUs.Entity;
-using ClaimsRUs.Entity.Models;
+using ClaimsRUs.Data.ViewModels;
+using ClaimsRUs.Data.Abstractions.Readers;
+using ClaimsRUs.Data.Abstractions.Models;
 
 namespace ClaimsRUs.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly Context _dbContext;
+        private readonly IVehiclesReader vehiclesReader;
 
-        public HomeController(ILogger<HomeController> logger, Context context)
+        public HomeController(ILogger<HomeController> logger, IVehiclesReader vehiclesReader)
         {
             _logger = logger;
-            _dbContext = context;
+            this.vehiclesReader = vehiclesReader;
         }
 
         public IActionResult Index()
@@ -29,7 +26,7 @@ namespace ClaimsRUs.Controllers
 
         public IActionResult Vehicles()
         {
-            var _vehicleList = _dbContext.vehicle.ToList();
+            IEnumerable<IVehicle> _vehicleList = vehiclesReader.ReadAll();
 
             return View(_vehicleList);
         }

@@ -1,9 +1,9 @@
 ﻿using ClaimsRUs.Data.Abstractions.Models;
 using System;
 
-namespace ClaimsRUs.Models
+namespace ClaimsRUs.Data.ViewModels
 {
-    public class Claim : IClaim
+    public class ClaimViewModel : IClaim
     {
         public Guid ClaimId { get; set; }
         public DateTime DateCreated { get; set; }
