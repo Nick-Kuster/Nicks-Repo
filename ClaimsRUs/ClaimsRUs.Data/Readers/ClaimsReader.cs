@@ -3,6 +3,7 @@ using ClaimsRUs.Data.Abstractions.Readers;
 using ClaimsRUs.Data.ViewModels;
 using ClaimsRUs.Entity;
 using ClaimsRUs.Entity.Models;
+using ClaimsRUs.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,10 @@ namespace ClaimsRUs.Data.Readers
 
         public IClaim Read(Guid id)
         {
+            var contacts = _dbContext.contact.ToList();
+            var vehicles = _dbContext.vehicle.ToList();
+            var claimContactVehicles = _dbContext.claimContactVehicle.ToList();
+
             Claim fromDb = _dbContext.claim.FirstOrDefault(x => x.ClaimId == id) ?? throw new Exception("Claim not found");
 
             IClaim viewModel = ConvertToViewModel(fromDb);
@@ -30,6 +35,9 @@ namespace ClaimsRUs.Data.Readers
 
         public IEnumerable<IClaim> ReadAll()
         {
+            var contacts = _dbContext.contact.ToList();
+            var vehicles = _dbContext.vehicle.ToList();
+            var claimContactVehicles = _dbContext.claimContactVehicle.ToList();
             var fromDb = _dbContext.claim.ToList();
 
             List<IClaim> viewModelList = new List<IClaim>();
@@ -42,14 +50,46 @@ namespace ClaimsRUs.Data.Readers
             return viewModelList;
         }
 
-        public IClaim ConvertToViewModel(Claim fromDb)
+        private IClaim ConvertToViewModel(Claim fromDb)
         {
+            var contactVehicles = fromDb.ClaimContactVehicles?
+                                    .Select(x => new ContactVehicleViewModel() { Contact = ConvertContactToViewModel(x.Contact), Vehicle = ConvertVehicleToViewModel(x.Vehicle) });
             return new ClaimViewModel()
             {
                 ClaimId = fromDb.ClaimId,
                 DateCreated = fromDb.DateCreated,
                 DateOfClaim = fromDb.DateOfClaim,
-                Description = fromDb.Description
+                Description = fromDb.Description,
+                ContactVehicles = contactVehicles
+            };
+        }
+
+        private IContact ConvertContactToViewModel(Contact fromDb)
+        {
+            return new ContactViewModel()
+            {
+                ContactId = fromDb.ContactId,
+                City = fromDb.City,
+                FName = fromDb.FName,
+                LName = fromDb.LName,
+                HPhone = fromDb.HPhone,
+                MPhone = fromDb.MPhone,
+                OPhone = fromDb.OPhone,
+                State = fromDb.State,
+                Street = fromDb.Street,
+                Zip = fromDb.Zip
+            };
+        }
+
+        private IVehicle ConvertVehicleToViewModel(Vehicle fromDb)
+        {
+            return new VehicleViewModel()
+            {
+                VehicleId = fromDb.VehicleId,
+                Color = fromDb.Color,
+                Make = fromDb.Make,
+                Model = fromDb.Model,
+                Year = fromDb.Year
             };
         }
     }

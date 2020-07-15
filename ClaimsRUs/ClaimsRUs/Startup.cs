@@ -41,7 +41,9 @@ namespace ClaimsRUs
         private void SetUpDI(IServiceCollection services)
         {
             services.AddTransient<IVehicle, VehicleViewModel>();
+            services.AddTransient<IClaim, ClaimViewModel>();
             services.AddTransient<IVehiclesReader, VehiclesReader>();
+            services.AddTransient<IClaimsReader, ClaimsReader>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,7 +70,7 @@ namespace ClaimsRUs
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Claims}/{action=Index}/{id?}");
             });
         }
     }

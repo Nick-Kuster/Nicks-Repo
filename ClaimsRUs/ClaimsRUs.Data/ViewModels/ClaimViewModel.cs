@@ -1,5 +1,6 @@
 ﻿using ClaimsRUs.Data.Abstractions.Models;
 using System;
+using System.Collections.Generic;
 
 namespace ClaimsRUs.Data.ViewModels
 {
@@ -9,5 +10,6 @@ namespace ClaimsRUs.Data.ViewModels
         public DateTime DateCreated { get; set; }
         public DateTime DateOfClaim { get; set; }
         public string Description { get; set; }
+        public IEnumerable<IContactVehicle> ContactVehicles { get; set; }
     }
 }
