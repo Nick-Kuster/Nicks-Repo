@@ -1,0 +1,4 @@
+optimize_patch=C:\Dev\GIT\3E Optimize;
+optimize_repo=C:\Dev\GIT\3E OptimizeSQL;
+sql_patch=C:\Dev\PatchDev\3E Generate;
+sql_repo=C:\Dev\sql\3E Generate SQL;
