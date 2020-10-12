@@ -1,0 +1,9 @@
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\bin\Debug-x64\GoToDefinition.dll
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\bin\Debug-x64\GoToDefinition.pdb
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\obj\x64\Debug\GoToDefinition.csprojAssemblyReference.cache
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\obj\x64\Debug\Kbg.NppPluginNET.frmMyDlg.resources
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\obj\x64\Debug\GoToDefinition.Properties.Resources.resources
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\obj\x64\Debug\GoToDefinition.csproj.GenerateResource.cache
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\obj\x64\Debug\GoToDefinition.csproj.CoreCompileInputs.cache
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\obj\x64\Debug\GoToDefinition.dll
+C:\Users\i24830.DEV\source\repos\GoToDefinition\GoToDefinition\obj\x64\Debug\GoToDefinition.pdb
