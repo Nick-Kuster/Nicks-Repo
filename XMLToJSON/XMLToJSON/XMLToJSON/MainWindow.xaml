@@ -1,0 +1,60 @@
+﻿<Window x:Class="XMLToJSON.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XMLToJSON"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height = "*" />
+            <RowDefinition Height = "*" />
+            <RowDefinition Height = "*" />
+            <RowDefinition Height = "*" />
+            <RowDefinition Height = "*" />
+            <RowDefinition Height = "*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width = "*" />
+            <ColumnDefinition Width = "*" />
+            <ColumnDefinition Width = "*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Content = "XML To JSON" FontSize = "15"
+         FontWeight = "Bold" Grid.Column = "0" Grid.Row = "0"/>
+
+        <StackPanel Grid.Column = "0" Grid.ColumnSpan="3" Grid.Row = "1" Orientation = "Horizontal">
+            <Label Content = "File Path"  VerticalAlignment = "Center" Width = "70"/>
+            <TextBox Name = "FilePath" Text = "" VerticalAlignment = "Center"
+            Width = "400">
+            </TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Column = "2" Grid.Row = "2" Orientation = "Horizontal">
+            <Button Name = "SelectFilePath" Click="OpenFileDialogClicked" Content="Select File" VerticalAlignment = "Top" HorizontalAlignment="Right"
+            Width = "120">
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Column = "0" Grid.ColumnSpan="3" Grid.Row = "3" Orientation = "Horizontal">
+            <Label Content = "Endpoint"  VerticalAlignment = "Center" Width = "70"/>
+            <TextBox Name = "Endpoint" Text = "" VerticalAlignment = "Center"
+            Width = "400">
+            </TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Column = "2" Grid.Row = "4" Orientation = "Horizontal">
+            <Button Name = "SendToEndpoint" Content="Send to Endpoint" HorizontalAlignment="Right" VerticalAlignment = "Top"
+            Width = "120">
+            </Button>
+        </StackPanel>
+        
+        <StackPanel Grid.Column = "1" Grid.Row = "5" Orientation = "Horizontal">
+            <Button Name = "SaveSettings" Click="SaveSettingsClicked" Content="Save Settings" HorizontalAlignment="Center" VerticalAlignment = "Center"
+            Width = "120">
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

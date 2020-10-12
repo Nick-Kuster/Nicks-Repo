@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xI3HLfgAAIqY/1vaJnkGGdNFwBJtES5zPybRkKQTXSiMXPin80UnKi30T/ngNH2j3turumPysu/KauyjAAm93g==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nick\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
