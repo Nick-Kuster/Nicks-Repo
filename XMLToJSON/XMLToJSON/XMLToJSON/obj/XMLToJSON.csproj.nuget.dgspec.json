@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj": {}
+    "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj": {}
   },
   "projects": {
-    "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj": {
+    "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj",
+        "projectUniqueName": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj",
         "projectName": "XMLToJSON.BLL",
-        "projectPath": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj",
-        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\obj\\",
+        "projectPath": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj",
+        "packagesPath": "C:\\Users\\nickk\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+          "C:\\Users\\nickk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -46,6 +41,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "RestSharp.Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[1.5.1, )"
             }
           },
           "imports": [
@@ -67,23 +70,18 @@
         }
       }
     },
-    "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj": {
+    "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj",
+        "projectUniqueName": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj",
         "projectName": "XMLToJSON",
-        "projectPath": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj",
-        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\obj\\",
+        "projectPath": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\XMLToJSON.csproj",
+        "packagesPath": "C:\\Users\\nickk\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+          "C:\\Users\\nickk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -95,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj": {
-                "projectPath": "C:\\dev\\Nick Git\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj"
+              "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj": {
+                "projectPath": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\XMLToJSON\\XMLToJSON\\XMLToJSON.BLL\\XMLToJSON.BLL.csproj"
               }
             }
           }

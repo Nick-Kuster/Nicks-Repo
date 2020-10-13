@@ -1,0 +1,12 @@
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\bin\Debug\netcoreapp3.1\XMLToJSON.Console.exe
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\bin\Debug\netcoreapp3.1\XMLToJSON.Console.deps.json
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\bin\Debug\netcoreapp3.1\XMLToJSON.Console.runtimeconfig.json
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\bin\Debug\netcoreapp3.1\XMLToJSON.Console.runtimeconfig.dev.json
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\bin\Debug\netcoreapp3.1\XMLToJSON.Console.dll
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\bin\Debug\netcoreapp3.1\XMLToJSON.Console.pdb
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\obj\Debug\netcoreapp3.1\XMLToJSON.Console.AssemblyInfoInputs.cache
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\obj\Debug\netcoreapp3.1\XMLToJSON.Console.AssemblyInfo.cs
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\obj\Debug\netcoreapp3.1\XMLToJSON.Console.csproj.CoreCompileInputs.cache
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\obj\Debug\netcoreapp3.1\XMLToJSON.Console.dll
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\obj\Debug\netcoreapp3.1\XMLToJSON.Console.pdb
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.Console\obj\Debug\netcoreapp3.1\XMLToJSON.Console.genruntimeconfig.cache

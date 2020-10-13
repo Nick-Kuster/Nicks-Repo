@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\dev\Nick Git\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON\obj\Debug\netcoreapp3.1\
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON\obj\Debug\netcoreapp3.1\
 XMLToJSON
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\dev\Nick Git\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON\App.xaml
-11151548125
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON\App.xaml
+2-1204223022
 
-51423888174
-1992024145137
-MainWindow.xaml;
+6-198167692
+201-55843251
+MainWindow.xaml;UserControls\LoadingIndicator.xaml;
 
 True
 
