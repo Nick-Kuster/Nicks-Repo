@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tb7PhrmI1qeRErXRCkbK0Z2iiHAZ+aLFGDOSnYhRdkkxvB6z3rb0TlClRnER423EXV8AAFDauk6E7689exLDxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\AMOSToNetSmart\\Project.Infrastructure\\TMT5K.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nickk\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

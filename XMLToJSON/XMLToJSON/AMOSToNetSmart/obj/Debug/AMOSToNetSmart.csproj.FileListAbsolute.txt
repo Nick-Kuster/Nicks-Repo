@@ -1,0 +1,9 @@
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\bin\Debug\AMOSToNetSmart.exe.config
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\bin\Debug\AMOSToNetSmart.exe
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\bin\Debug\AMOSToNetSmart.pdb
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\obj\Debug\AMOSToNetSmart.csprojAssemblyReference.cache
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\obj\Debug\AMOSToNetSmart.ProjectInstaller.resources
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\obj\Debug\AMOSToNetSmart.csproj.GenerateResource.cache
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\obj\Debug\AMOSToNetSmart.csproj.CoreCompileInputs.cache
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\obj\Debug\AMOSToNetSmart.exe
+C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\AMOSToNetSmart\obj\Debug\AMOSToNetSmart.pdb

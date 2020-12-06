@@ -52,7 +52,7 @@ namespace XMLToJSON.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XMLToJSON;component/usercontrols/loadingindicator.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XMLToJSON;V1.0.0.0;component/usercontrols/loadingindicator.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\LoadingIndicator.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

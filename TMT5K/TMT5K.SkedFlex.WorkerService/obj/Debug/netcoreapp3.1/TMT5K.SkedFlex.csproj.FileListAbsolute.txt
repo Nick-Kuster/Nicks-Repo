@@ -1,0 +1,4 @@
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.SkedFlex.WorkerService\obj\Debug\netcoreapp3.1\TMT5K.SkedFlex.csprojAssemblyReference.cache
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.SkedFlex.WorkerService\obj\Debug\netcoreapp3.1\TMT5K.SkedFlex.AssemblyInfoInputs.cache
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.SkedFlex.WorkerService\obj\Debug\netcoreapp3.1\TMT5K.SkedFlex.AssemblyInfo.cs
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.SkedFlex.WorkerService\obj\Debug\netcoreapp3.1\TMT5K.SkedFlex.csproj.CoreCompileInputs.cache

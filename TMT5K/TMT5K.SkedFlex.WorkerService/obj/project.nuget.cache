@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bBVJiV6g4g4vHACjTwOysSESCwHl3DJuGsg3v6UUlpbs9rsPbAt5dYJCrViAl/spLejvVovomsQybY0c6mupJg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Nick's Repo\\Nicks-Repo\\TMT5K\\TMT5K.SkedFlex.WorkerService\\TMT5K.SkedFlex.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nickk\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

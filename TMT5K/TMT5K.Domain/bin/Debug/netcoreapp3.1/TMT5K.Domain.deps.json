@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TMT5K.Domain/1.0.0": {
+        "runtime": {
+          "TMT5K.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TMT5K.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

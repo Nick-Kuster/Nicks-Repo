@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "TMT5K.SkedFlex.WorkerService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\obj\Debug\netcoreapp3.1\TMT5K.Domain.AssemblyInfoInputs.cache
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\obj\Debug\netcoreapp3.1\TMT5K.Domain.AssemblyInfo.cs
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\obj\Debug\netcoreapp3.1\TMT5K.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\bin\Debug\netcoreapp3.1\TMT5K.Domain.deps.json
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\bin\Debug\netcoreapp3.1\TMT5K.Domain.dll
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\bin\Debug\netcoreapp3.1\TMT5K.Domain.pdb
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\obj\Debug\netcoreapp3.1\TMT5K.Domain.dll
+C:\Dev\Nick's Repo\Nicks-Repo\TMT5K\TMT5K.Domain\obj\Debug\netcoreapp3.1\TMT5K.Domain.pdb

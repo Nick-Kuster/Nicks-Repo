@@ -7,12 +7,3 @@ C:\dev\Nick Git\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\bin\Debug\netcoreap
 C:\dev\Nick Git\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.csproj.CoreCompileInputs.cache
 C:\dev\Nick Git\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.dll
 C:\dev\Nick Git\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.pdb
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.AssemblyInfoInputs.cache
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.AssemblyInfo.cs
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.csproj.CoreCompileInputs.cache
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\bin\Debug\netcoreapp3.1\XMLToJSON.BLL.deps.json
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\bin\Debug\netcoreapp3.1\XMLToJSON.BLL.dll
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\bin\Debug\netcoreapp3.1\XMLToJSON.BLL.pdb
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.dll
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.pdb
-C:\Dev\Nick's Repo\Nicks-Repo\XMLToJSON\XMLToJSON\XMLToJSON.BLL\obj\Debug\netcoreapp3.1\XMLToJSON.BLL.csprojAssemblyReference.cache
